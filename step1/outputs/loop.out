@@ -1,0 +1,208 @@
+Token Type: PROGRAM
+Value: PROGRAM
+Token Type: IDENTIFIER
+Value: loop
+Token Type: BEGIN
+Value: BEGIN
+Token Type: STRING
+Value: STRING
+Token Type: IDENTIFIER
+Value: guess
+Token Type: OPS_ASSIGN
+Value: :=
+Token Type: STRINGLITERAL
+Value: "Guess a number: "
+Token Type: OPS_SEMIC
+Value: ;
+Token Type: STRING
+Value: STRING
+Token Type: IDENTIFIER
+Value: correct
+Token Type: OPS_ASSIGN
+Value: :=
+Token Type: STRINGLITERAL
+Value: "Correct!\n"
+Token Type: OPS_SEMIC
+Value: ;
+Token Type: STRING
+Value: STRING
+Token Type: IDENTIFIER
+Value: wrong
+Token Type: OPS_ASSIGN
+Value: :=
+Token Type: STRINGLITERAL
+Value: "Wrong!\n"
+Token Type: OPS_SEMIC
+Value: ;
+Token Type: STRING
+Value: STRING
+Token Type: IDENTIFIER
+Value: out1
+Token Type: OPS_ASSIGN
+Value: :=
+Token Type: STRINGLITERAL
+Value: "It took you "
+Token Type: OPS_SEMIC
+Value: ;
+Token Type: STRING
+Value: STRING
+Token Type: IDENTIFIER
+Value: out2
+Token Type: OPS_ASSIGN
+Value: :=
+Token Type: STRINGLITERAL
+Value: " guesses"
+Token Type: OPS_SEMIC
+Value: ;
+Token Type: INT
+Value: INT
+Token Type: IDENTIFIER
+Value: i
+Token Type: OPS_SEMIC
+Value: ;
+Token Type: INT
+Value: INT
+Token Type: IDENTIFIER
+Value: j
+Token Type: OPS_SEMIC
+Value: ;
+Token Type: FUNCTION
+Value: FUNCTION
+Token Type: VOID
+Value: VOID
+Token Type: IDENTIFIER
+Value: main
+Token Type: OPS_LP
+Value: (
+Token Type: OPS_RP
+Value: )
+Token Type: BEGIN
+Value: BEGIN
+Token Type: IDENTIFIER
+Value: i
+Token Type: OPS_ASSIGN
+Value: :=
+Token Type: INTLITERAL
+Value: 17
+Token Type: OPS_SEMIC
+Value: ;
+Token Type: IDENTIFIER
+Value: j
+Token Type: OPS_ASSIGN
+Value: :=
+Token Type: INTLITERAL
+Value: 0
+Token Type: OPS_SEMIC
+Value: ;
+Token Type: IDENTIFIER
+Value: k
+Token Type: OPS_ASSIGN
+Value: :=
+Token Type: INTLITERAL
+Value: 0
+Token Type: OPS_SEMIC
+Value: ;
+Token Type: WHILE
+Value: WHILE
+Token Type: OPS_LP
+Value: (
+Token Type: IDENTIFIER
+Value: i
+Token Type: OPS_NOT_EQUALS
+Value: !=
+Token Type: IDENTIFIER
+Value: j
+Token Type: OPS_RP
+Value: )
+Token Type: WRITE
+Value: WRITE
+Token Type: OPS_LP
+Value: (
+Token Type: IDENTIFIER
+Value: guess
+Token Type: OPS_RP
+Value: )
+Token Type: OPS_SEMIC
+Value: ;
+Token Type: READ
+Value: READ
+Token Type: OPS_LP
+Value: (
+Token Type: IDENTIFIER
+Value: j
+Token Type: OPS_RP
+Value: )
+Token Type: OPS_SEMIC
+Value: ;
+Token Type: IDENTIFIER
+Value: k
+Token Type: OPS_ASSIGN
+Value: :=
+Token Type: IDENTIFIER
+Value: k
+Token Type: OPS_PLUS
+Value: +
+Token Type: INTLITERAL
+Value: 1
+Token Type: OPS_SEMIC
+Value: ;
+Token Type: IF
+Value: IF
+Token Type: OPS_LP
+Value: (
+Token Type: IDENTIFIER
+Value: i
+Token Type: OPS_EQUALS
+Value: =
+Token Type: IDENTIFIER
+Value: j
+Token Type: OPS_RP
+Value: )
+Token Type: WRITE
+Value: WRITE
+Token Type: OPS_LP
+Value: (
+Token Type: IDENTIFIER
+Value: correct
+Token Type: OPS_RP
+Value: )
+Token Type: OPS_SEMIC
+Value: ;
+Token Type: ELSE
+Value: ELSE
+Token Type: WRITE
+Value: WRITE
+Token Type: OPS_LP
+Value: (
+Token Type: IDENTIFIER
+Value: wrong
+Token Type: OPS_RP
+Value: )
+Token Type: OPS_SEMIC
+Value: ;
+Token Type: ENDIF
+Value: ENDIF
+Token Type: ENDWHILE
+Value: ENDWHILE
+Token Type: WRITE
+Value: WRITE
+Token Type: OPS_LP
+Value: (
+Token Type: IDENTIFIER
+Value: out1
+Token Type: OPS_COMMA
+Value: ,
+Token Type: IDENTIFIER
+Value: k
+Token Type: OPS_COMMA
+Value: ,
+Token Type: IDENTIFIER
+Value: out2
+Token Type: OPS_RP
+Value: )
+Token Type: OPS_SEMIC
+Value: ;
+Token Type: END
+Value: END
+Token Type: END
+Value: END

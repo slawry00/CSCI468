@@ -26,7 +26,7 @@ public class Driver {
             int errors;
             LittleParser myParser= new LittleParser(tokens);
             ParseTree tree = myParser.start();
-//            myParser.getInputStream(tokens);
+            //myParser.getInputStream(tokens);
             errors = myParser.getNumberOfSyntaxErrors();
             if(errors > 0){
                 System.out.println("Not accepted");
